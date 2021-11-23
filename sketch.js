@@ -32,7 +32,7 @@ function draw() {
   Engine.update(engine);
   background(0); 
   drawSprites();
-  for(var i = 0; i<maxDrops; i++){
+  for(var i = 90; i<maxDrops; i++){
     drops[i].Display();
     drops[i].updateY()
     } 
